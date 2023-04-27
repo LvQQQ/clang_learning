@@ -1,0 +1,26 @@
+C言語の分割ファイルの実行
+    Code Runnerでは実行できないのでターミナルから下記を実行する
+    ・分割対象ファイル
+        main.c,  sub.c subsub.c
+    // コンパイル
+    gcc main.c -c
+    gcc sub.c -c
+    gcc subsub.c -c
+
+    // 実行ファイル生成
+    gcc main.c sub.c subsub.c -o main
+
+    // 実行
+    main
+
+    またはCode Runnerのコマンドを変更する
+    cd "c:\clang\" ; if ($?) { gcc -fexec-charset=CP932 main.c calc.c -o main } ; if ($?) { .\main }
+
+#include "...." でエラーが出た場合は
+    c_cpp_properties.jsonのincludepathにフォルダのパスを入力する
+    "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\MinGW\\include",
+                "C:\\clang",
+                "C:\\clang\\sample"
+    ]
