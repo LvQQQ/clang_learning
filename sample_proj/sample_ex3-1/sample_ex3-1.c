@@ -22,4 +22,5 @@ void main() {
 		printf("ar1[%d]=%d *(p1+%d)=%d ", i, ar1[i], i, *(p1 + i));
 		printf("ar2[%d]=%c *(p2+%d)=%c\n", i, ar2[i], i, *(p2 + i));
 	}
+	
 }
