@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             // "program": "${workspaceFolder}/practice_exercise/practice_exercise8/prob8-18/prob8-18.exe",
-            "program": "${workspaceFolder}/sample_proj/sample_ex5-2/sample_ex5-2.exe",
+            "program": "${workspaceFolder}/sample_proj/sample_ex5-4/sample_ex5-4.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
