@@ -5,7 +5,7 @@
             "label": "C/C++: gcc.exe アクティブなファイルのビルド",
             "command": "C:\\MinGW\\bin\\gcc.exe",
             "args": [
-                // "-fexec-charset=CP932",
+                "-fexec-charset=CP932",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
